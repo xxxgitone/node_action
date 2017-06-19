@@ -1,0 +1,23 @@
+{
+  "name": "node_action",
+  "version": "1.0.0",
+  "description": "nodejs的实例",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxxgitone/node_action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxxgitone/node_action/issues"
+  },
+  "homepage": "https://github.com/xxxgitone/node_action#readme",
+  "dependencies": {
+    "mime": "^1.3.6",
+    "socket.io": "^2.0.3"
+  }
+}
