@@ -18,11 +18,13 @@ io.on('connection', (socket) => {
 
   // handle chat event
   socket.on('chat', (data) => {
+    // 给所有客户端广播消息
     io.sockets.emit('chat', data)
   })
 
   // Handle typing event
   socket.on('typing', (data) => {
+    // 给除了自己以外的客户端广播消息
     socket.broadcast.emit('typing', data)
   })
 })
